@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="calci.css">
+   
+  </head>
+
+  <body>
+      <h1>CALCULATOR</h1>
+      <div id="container">
+      
+    <form name="form" >
+     
+
+        
+           
+                <input type="text" name="textview" class="textview" readonly="readonly">
+                <input type="text" name="oldtext" class="oldtext" readonly="readonly">
+       
+        <table name="table"id="calcuator" >
+        <tr>
+                <td>
+                    <input type="button" class="clear"  value="AC" onclick="clearAll()">
+                    
+                </td>
+                <td>
+                    <input type="button"  class="clear"  value="CE" onclick="back()">
+                </td> 
+                <td>
+                    <input type="button"  class="clear"  value="." onclick="insert(value)">
+                </td>   
+                <td>
+                    <input type="button"  class="operators"  value="/" onclick="insert(value)">
+                </td>                       
+        </tr>
+        <tr>
+                <td>
+                    <input type="button"  class="button"  value="7" onclick="insert(value)">
+                </td>             
+                <td>
+                    <input type="button"  class="button"  value="8" onclick="insert(value)">
+                </td>
+                <td>
+                    <input type="button"  class="button"  value="9" onclick="insert(value)">
+                </td> 
+                <td>
+                    <input type="button"  class="operators"  value="*" onclick="insert(value)">
+                </td>          
+        </tr>
+   
+        <tr>
+                <td>
+                    <input type="button"  class="button"  value="4" onclick="insert(value)">
+                </td>            
+                <td>
+                    <input type="button"  class="button"  value="5" onclick="insert(value)">
+                </td>
+                <td>
+                    <input type="button"  class="button"  value="6" onclick="insert(value)">
+                </td> 
+                <td>
+                        <input type="button"  class="operators"  value="-" onclick="insert(value)">
+                </td>          
+        </tr>
+        <tr>
+                <td>
+                        <input type="button"  class="button"  value="1" onclick="insert(value)">
+                </td>            
+                <td>
+                        <input type="button"  class="button"  value="2" onclick="insert(value)">
+                </td>
+                <td>
+                        <input type="button"  class="button"  value="3" onclick="insert(value)">
+                </td> 
+                <td>
+                        <input type="button"  class="operators"  value="+" id="+" onclick="insert(value)">
+                </td>          
+        </tr>
+        <tr>
+                <td>
+                     <input type="button"  class="operators"  value="(" onclick="insert(value)" >
+                </td> 
+                <td>
+                    <input type="button"  class="operators"  value="0"  onclick="insert(value)">
+                </td>                           
+                <td>
+                    <input type="button"  class="operators"  value=")" onclick="insert(value)">
+                </td>
+                <td>
+                    <input type="button"  class="operators"  value="=" onclick="equal()">
+                </td>          
+        </tr> 
+           
+    </table>
+    
+     <script src="calci.js"></script>
+     </form>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Snap+ITC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rockwell&display=swap');
+body{
+    font-family: "Snap ITC",sans-serif;
+    background-color: black;
+    align-content: center;
+    margin:0px;
+    height: 100vh;
+    width:100wv;
+}
+h1{
+    
+    align-content:center;
+    font-family: "Snap ITC",sans-serif;
+    color:ghostwhite;
+    margin-left:43vw;
+}
+#container{
+    width:100vw;
+    height:500px;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://raw.githubusercontent.com/swizel012/css-images/master/26576728-numbers-background.jpg);
+  
+}
+
+table{
+    margin-left:40vw;
+    width:325px;
+    height:400px;
+    background-color:black;
+    align-content: center;
+    border-radius:5px;
+    box-shadow:0 4px 8px 0 rgba(0, 0,0, 0.2),0 6px 20px 0rgba(0, 0, 0, 0.19);
+
+}
+
+
+.button{
+    font-size:40px;
+    font-style: bold;
+    font-family: "Snap ITC",sans-serif;
+    background-color:darkgray;
+    border-radius: 10mm;
+    width:70px;
+    height:70px;
+
+}
+
+.oldtext{
+    margin-left:40vw;
+    font-size:20px;
+    font-style: bold;
+    font-family:"Rockwell",serif;
+    width:320px;
+    height:20px;
+    text-align: right;
+}
+.textview{
+    direction:ltr;
+    margin-left:40vw;
+    font-size:40px;
+    font-style: bold;
+    font-family:"Rockwell",serif;
+    width:320px;
+    height:50px;
+    margin-top:10px;
+    text-align: center;
+}
+.operators{
+    font-size:30px;
+    font-style: bold;
+    font-family: "Snap ITC",sans-serif;
+    border-radius: 10mm;
+    width:60px;
+    height:60px;
+    background-color:ghostwhite;
+
+}
+.clear{
+    font-size:30px;
+    font-style: bold;
+    font-family: "Snap ITC",sans-serif;
+    border-radius: 10mm;
+    width:60px;
+    height:60px;
+    background-color:grey;
+}
